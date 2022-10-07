@@ -440,7 +440,7 @@ Private Sub btnJoinMember_Click()
 End Sub
 
 '=========================================================================
-' 휴폐업 조회시 과금되는 포인트 단가를 확인합니다.
+' 기업정보 조회시 과금되는 포인트 단가를 확인합니다.
 ' - https://docs.popbill.com/bizinfocheck/vb/api#GetUnitCost
 '=========================================================================
 Private Sub btnUnitCost_Click()
