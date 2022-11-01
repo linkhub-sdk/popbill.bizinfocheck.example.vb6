@@ -837,7 +837,7 @@ Private Sub btnCheckBizInfo_Click()
     tmp = tmp + "closeDownState (휴폐업상태) : " + CStr(BizCheckInfo.closeDownState) + vbCrLf
     tmp = tmp + "closeDownStateDate (휴폐업일자) : " + BizCheckInfo.closeDownStateDate
     
-    MsgBox tmp, "기업정보조회 - 단건"
+    MsgBox tmp, , "기업정보조회 - 단건"
 End Sub
 
 Private Sub Form_Load()
